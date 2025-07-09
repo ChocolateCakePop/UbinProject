@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Pulau Ubin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <div class="hero-section section" id="section-1">
+   <header>
+  <div class="nav-left">
+    <a href="sections\explore\explore.html">Island Discoveries</a>
+    <a href="sections\stories\story.html">Voices of Ubin</a>
+    <a href="sections\flora\flora.html">Island Greens</a>
+    <a href="sections\wildlife\fauna.html">Island Wildlife</a>
+    <a href="about.html" class="dropdown">About us</a>
+  </div>
+
+  <div class="logo">Republic Polytechnic</div>
+
+  <a href="volunteer.html" class="volunteer-btn">Volunteer!</a>
+</header>
+
+      <div class="hero-text" data-animate>
+        <h1>Experience Singapore’s<br>Last Kampung</h1>
+        <p class="subheading" style="margin-left: 20px;">Explore, connect, and preserve the spirit of Pulau Ubin.</p>
+      </div>
+
+    <div class="scroll-down" onclick="scrollToSection()">
+      ↓ SCROLL DOWN
+    </div>
+  </div>
+
+  <section id="next-section" class="section">
+    <a href="sections/explore/explore.html" class="box">
+      <div class="bg" data-bg="images/explore.jpg"></div>
+      <span>Island Discoveries</span>
+    </a>
+    <a href="sections/stories/story.html" class="box">
+      <div class="bg" data-bg="images/stories.jpg"></div>
+      <span>Voices of Ubin</span>
+    </a>
+    <a href="sections/flora/flora.html" class="box">
+      <div class="bg" data-bg="images/flora.jpg"></div>
+      <span>Island Greens</span>
+    </a>
+    <a href="sections/wildlife/fauna.html" class="box">
+      <div class="bg" data-bg="images/fauna.jpg"></div>
+      <span>Island Wildlife</span>
+    </a>
+  </section>
+
+  <section id="volunteer" class="volunteer-page section" style="margin-top: 60px; margin-bottom: 60px;">
+    <div class="content" style="padding: 40px 0;">
+      <h2 style="margin-bottom: 24px;">Become a Volunteer</h2>
+      <p style="margin-bottom: 32px;">Join us to help preserve and share the culture of Pulau Ubin. Whether it's guiding, conservation or storytelling, your contribution matters!</p>
+      <button class="volunteer-btn">Sign Up</button>
+    </div>
+  </section>
+
+  <nav class="scroll-indicators">
+    <a href="#section-1" class="dot active"></a>
+    <a href="#next-section" class="dot"></a>
+    <a href="#volunteer" class="dot"></a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
